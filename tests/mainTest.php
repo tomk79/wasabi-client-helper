@@ -14,7 +14,7 @@ final class mainTest extends TestCase{
 	 * 普通にインスタンス化して実行してみるテスト
 	 */
 	public function testStandard(){
-        $wasabiClientHelper = new \wasabiClientHelper\main();
+        $wasabiClientHelper = new \pickles2\wasabiClientHelper\main();
 		$this->assertTrue( is_object($wasabiClientHelper) );
 	}
 
