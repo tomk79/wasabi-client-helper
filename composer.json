@@ -1,0 +1,35 @@
+{
+    "name": "pickles2/wasabi-client-helper",
+    "description": "",
+    "keywords": ["pickles2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomoya Koyanagi",
+            "email": "tomk79@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": [
+            "php ./vendor/phpunit/phpunit/phpunit"
+        ]
+    },
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "php/main.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "extra": {
+    }
+}
